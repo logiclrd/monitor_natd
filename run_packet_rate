@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/sbin/natd -v -n vtnet1 `/root/make_natd_flags/make_natd_flags` | ./packet_rate
